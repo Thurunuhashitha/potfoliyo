@@ -1,16 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Thurunu Hashitha | Software Engineer & Full-Stack Developer</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Software Engineer specializing in Full-Stack Development, Mobile Applications, and IoT Systems">
-    
+    <meta name="description"
+        content="Software Engineer specializing in Full-Stack Development, Mobile Applications, and IoT Systems">
+
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
     <style>
         * {
             margin: 0;
@@ -200,15 +204,22 @@
         .hero-background {
             position: absolute;
             inset: 0;
-            background: 
+            background:
                 radial-gradient(circle at 20% 50%, rgba(0, 229, 255, 0.1) 0%, transparent 50%),
                 radial-gradient(circle at 80% 80%, rgba(124, 58, 237, 0.1) 0%, transparent 50%);
             animation: backgroundShift 15s ease-in-out infinite;
         }
 
         @keyframes backgroundShift {
-            0%, 100% { transform: translate(0, 0); }
-            50% { transform: translate(20px, 20px); }
+
+            0%,
+            100% {
+                transform: translate(0, 0);
+            }
+
+            50% {
+                transform: translate(20px, 20px);
+            }
         }
 
         .hero-content {
@@ -242,8 +253,17 @@
         }
 
         @keyframes pulse {
-            0%, 100% { opacity: 1; transform: scale(1); }
-            50% { opacity: 0.5; transform: scale(1.1); }
+
+            0%,
+            100% {
+                opacity: 1;
+                transform: scale(1);
+            }
+
+            50% {
+                opacity: 0.5;
+                transform: scale(1.1);
+            }
         }
 
         @keyframes fadeInUp {
@@ -251,6 +271,7 @@
                 opacity: 0;
                 transform: translateY(30px);
             }
+
             to {
                 opacity: 1;
                 transform: translateY(0);
@@ -939,12 +960,20 @@
         }
 
         @keyframes pulse {
-            0%, 100% { opacity: 1; }
-            50% { opacity: 0.5; }
+
+            0%,
+            100% {
+                opacity: 1;
+            }
+
+            50% {
+                opacity: 0.5;
+            }
         }
 
         /* Responsive Design */
         @media (max-width: 1024px) {
+
             .about-grid,
             .project-card {
                 grid-template-columns: 1fr;
@@ -1004,6 +1033,7 @@
         }
     </style>
 </head>
+
 <body>
     <!-- Loading Screen -->
     <div class="loading-screen">
@@ -1045,8 +1075,8 @@
                 Full-Stack Developer | Mobile App Developer | IoT Enthusiast
             </p>
             <p class="hero-description">
-                Passionate Software Engineering undergraduate from Sri Lanka 🇱🇰, specializing in 
-                building scalable web applications, innovative mobile solutions, and IoT systems 
+                Passionate Software Engineering undergraduate from Sri Lanka 🇱🇰, specializing in
+                building scalable web applications, innovative mobile solutions, and IoT systems
                 that solve real-world problems.
             </p>
             <div class="hero-cta">
@@ -1061,18 +1091,21 @@
             <div class="hero-social">
                 <a href="https://github.com/Thurunuhashitha" target="_blank" class="social-icon" title="GitHub">
                     <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-                        <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+                        <path
+                            d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z" />
                     </svg>
                 </a>
-                <a href="https://www.linkedin.com/in/thurunu-hashitha-242b58265/" target="_blank" class="social-icon" title="LinkedIn">
+                <a href="https://www.linkedin.com/in/thurunu-hashitha-242b58265/" target="_blank" class="social-icon"
+                    title="LinkedIn">
                     <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-                        <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                        <path
+                            d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
                     </svg>
                 </a>
                 <a href="mailto:hasithathurunu2@gmail.com" class="social-icon" title="Email">
                     <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
-                        <polyline points="22,6 12,13 2,6"/>
+                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                        <polyline points="22,6 12,13 2,6" />
                     </svg>
                 </a>
             </div>
@@ -1086,39 +1119,39 @@
             <h2 class="section-title">About Me</h2>
             <p class="section-subtitle">Building innovative solutions with passion and precision</p>
         </div>
-        
+
         <div class="about-grid">
             <div>
                 <p class="about-text">
-                    I'm a <strong>Software Engineering undergraduate</strong> with a passion for creating 
-                    impactful digital solutions. My journey in tech is driven by curiosity and a desire to 
+                    I'm a <strong>Software Engineering undergraduate</strong> with a passion for creating
+                    impactful digital solutions. My journey in tech is driven by curiosity and a desire to
                     solve real-world problems through code.
                 </p>
                 <br>
                 <p class="about-text">
-                    I specialize in <span class="highlight">Full-Stack Development</span>, building responsive 
-                    web applications with React and Node.js, developing cross-platform mobile apps with Flutter, 
-                    and creating IoT systems that bridge software and hardware. I'm constantly learning and 
+                    I specialize in <span class="highlight">Full-Stack Development</span>, building responsive
+                    web applications with React and Node.js, developing cross-platform mobile apps with Flutter,
+                    and creating IoT systems that bridge software and hardware. I'm constantly learning and
                     exploring new technologies to stay at the forefront of innovation.
                 </p>
                 <br>
                 <p class="about-text">
-                    Beyond coding, I believe in clean code, user-centric design, and collaborative development. 
+                    Beyond coding, I believe in clean code, user-centric design, and collaborative development.
                     I'm always eager to take on new challenges and contribute to meaningful projects.
                 </p>
             </div>
-            
+
             <div class="about-stats">
                 <div class="stat-card">
-                    <div class="stat-number">3+</div>
+                    <div class="stat-number">-</div>
                     <div class="stat-label">Years of Experience</div>
                 </div>
                 <div class="stat-card">
-                    <div class="stat-number">34+</div>
+                    <div class="stat-number">40+</div>
                     <div class="stat-label">GitHub Repositories</div>
                 </div>
                 <div class="stat-card">
-                    <div class="stat-number">15+</div>
+                    <div class="stat-number">6+</div>
                     <div class="stat-label">Projects Completed</div>
                 </div>
                 <div class="stat-card">
@@ -1137,7 +1170,7 @@
                 <h2 class="section-title">Skills & Technologies</h2>
                 <p class="section-subtitle">Tools and technologies I work with daily</p>
             </div>
-            
+
             <div class="skills-grid">
                 <div class="skill-category">
                     <div class="skill-category-icon">🎨</div>
@@ -1149,6 +1182,7 @@
                         <span class="skill-tag">JavaScript</span>
                         <span class="skill-tag">Bootstrap</span>
                         <span class="skill-tag">Material UI</span>
+                        <span class="skill-tag">Tailwind CSS</span>
                     </div>
                 </div>
 
@@ -1169,10 +1203,11 @@
                     <div class="skill-category-icon">📱</div>
                     <h3 class="skill-category-title">Mobile Development</h3>
                     <div class="skill-tags">
+                        <span class="skill-tag">React</span>
+                        <span class="skill-tag">React Native</span>
                         <span class="skill-tag">Flutter</span>
                         <span class="skill-tag">Dart</span>
                         <span class="skill-tag">Android (Java)</span>
-                        <span class="skill-tag">React Native</span>
                     </div>
                 </div>
 
@@ -1195,7 +1230,6 @@
                         <span class="skill-tag">ESP8266</span>
                         <span class="skill-tag">ESP32</span>
                         <span class="skill-tag">Sensors</span>
-                        <span class="skill-tag">MQTT</span>
                     </div>
                 </div>
 
@@ -1207,6 +1241,21 @@
                         <span class="skill-tag">Figma</span>
                         <span class="skill-tag">Postman</span>
                         <span class="skill-tag">VS Code</span>
+                        <span class="skill-tag">Intellij</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <div class="skill-category-icon">☁️</div>
+                    <h3 class="skill-category-title">Cloud, Hosting & DevOps</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">AWS (EC2)</span>
+                        <span class="skill-tag">DigitalOcean</span>
+                        <span class="skill-tag">Linux Server</span>
+                        <span class="skill-tag">Nginx</span>
+                        <span class="skill-tag">Termius</span>
+                        <span class="skill-tag">FileZilla</span>
+                        <span class="skill-tag">Domain & Hosting Setup</span>
+                        <span class="skill-tag">Deployment</span>
                     </div>
                 </div>
             </div>
@@ -1221,7 +1270,7 @@
                 <h2 class="section-title">Featured Projects</h2>
                 <p class="section-subtitle">Some of my recent work and contributions</p>
             </div>
-            
+
             <div class="projects-grid">
                 <!-- Multi-User Expense Tracker -->
                 <div class="project-card">
@@ -1229,8 +1278,8 @@
                     <div class="project-content">
                         <h3>Multi-User Expense Tracker</h3>
                         <p>
-                            A comprehensive expense management system with multi-user support, real-time tracking, 
-                            receipt image uploads, budget analytics, and automated financial reports. Built with 
+                            A comprehensive expense management system with multi-user support, real-time tracking,
+                            receipt image uploads, budget analytics, and automated financial reports. Built with
                             modern technologies for optimal performance.
                         </p>
                         <div class="project-tech">
@@ -1254,8 +1303,8 @@
                     <div class="project-content">
                         <h3>National ID Card Decoder</h3>
                         <p>
-                            Mobile application that decodes Sri Lankan National ID cards to extract information 
-                            such as birthdate, gender, and issuing district. Built with Flutter for cross-platform 
+                            Mobile application that decodes Sri Lankan National ID cards to extract information
+                            such as birthdate, gender, and issuing district. Built with Flutter for cross-platform
                             compatibility and smooth user experience.
                         </p>
                         <div class="project-tech">
@@ -1264,7 +1313,8 @@
                             <span class="tech-badge">Mobile</span>
                         </div>
                         <div class="project-links">
-                            <a href="https://github.com/Thurunuhashitha/National-ID-card-decoder" target="_blank" class="project-link">
+                            <a href="https://github.com/Thurunuhashitha/National-ID-card-decoder" target="_blank"
+                                class="project-link">
                                 View on GitHub
                                 <span>→</span>
                             </a>
@@ -1278,8 +1328,8 @@
                     <div class="project-content">
                         <h3>Hand Tracking System</h3>
                         <p>
-                            Computer vision project using Python and Arduino for real-time hand tracking and 
-                            finger detection. Integrates hardware with software to create interactive experiences 
+                            Computer vision project using Python and Arduino for real-time hand tracking and
+                            finger detection. Integrates hardware with software to create interactive experiences
                             and gesture-based controls.
                         </p>
                         <div class="project-tech">
@@ -1289,7 +1339,8 @@
                             <span class="tech-badge">IoT</span>
                         </div>
                         <div class="project-links">
-                            <a href="https://github.com/Thurunuhashitha/handtracking_system" target="_blank" class="project-link">
+                            <a href="https://github.com/Thurunuhashitha/handtracking_system" target="_blank"
+                                class="project-link">
                                 View on GitHub
                                 <span>→</span>
                             </a>
@@ -1303,7 +1354,7 @@
                     <div class="project-content">
                         <h3>E-Commerce Web Application</h3>
                         <p>
-                            Full-featured e-commerce platform with product catalog, shopping cart, user authentication, 
+                            Full-featured e-commerce platform with product catalog, shopping cart, user authentication,
                             and payment integration. Built with React for a responsive and dynamic user interface.
                         </p>
                         <div class="project-tech">
@@ -1313,7 +1364,8 @@
                             <span class="tech-badge">REST API</span>
                         </div>
                         <div class="project-links">
-                            <a href="https://github.com/Thurunuhashitha/E-Commerce-App" target="_blank" class="project-link">
+                            <a href="https://github.com/Thurunuhashitha/E-Commerce-App" target="_blank"
+                                class="project-link">
                                 View on GitHub
                                 <span>→</span>
                             </a>
@@ -1327,7 +1379,7 @@
                     <div class="project-content">
                         <h3>Bookstore Mobile App</h3>
                         <p>
-                            Cross-platform mobile application for browsing and purchasing books. Features include 
+                            Cross-platform mobile application for browsing and purchasing books. Features include
                             book catalog, search functionality, user reviews, and secure checkout process.
                         </p>
                         <div class="project-tech">
@@ -1337,7 +1389,8 @@
                             <span class="tech-badge">C++</span>
                         </div>
                         <div class="project-links">
-                            <a href="https://github.com/Thurunuhashitha/flutter-bookstore-app" target="_blank" class="project-link">
+                            <a href="https://github.com/Thurunuhashitha/flutter-bookstore-app" target="_blank"
+                                class="project-link">
                                 View on GitHub
                                 <span>→</span>
                             </a>
@@ -1351,8 +1404,8 @@
                     <div class="project-content">
                         <h3>Library Management System</h3>
                         <p>
-                            Desktop application for managing library operations including book cataloging, 
-                            member management, lending and returns, and fine calculations. Built with Python 
+                            Desktop application for managing library operations including book cataloging,
+                            member management, lending and returns, and fine calculations. Built with Python
                             for efficiency and ease of use.
                         </p>
                         <div class="project-tech">
@@ -1361,7 +1414,8 @@
                             <span class="tech-badge">SQLite</span>
                         </div>
                         <div class="project-links">
-                            <a href="https://github.com/Thurunuhashitha/LibraryManagementSystem" target="_blank" class="project-link">
+                            <a href="https://github.com/Thurunuhashitha/LibraryManagementSystem" target="_blank"
+                                class="project-link">
                                 View on GitHub
                                 <span>→</span>
                             </a>
@@ -1387,7 +1441,7 @@
                 <h2 class="section-title">Let's Work Together</h2>
                 <p class="section-subtitle">Have a project in mind? Let's discuss how we can collaborate</p>
             </div>
-            
+
             <div class="contact-content">
                 <form class="contact-form" id="contactForm">
                     <div class="form-row">
@@ -1395,28 +1449,28 @@
                             <label for="name">Your Name</label>
                             <input type="text" id="name" name="name" required>
                         </div>
-                        
+
                         <div class="form-group">
                             <label for="email">Your Email</label>
                             <input type="email" id="email" name="email" required>
                         </div>
                     </div>
-                    
+
                     <div class="form-group">
                         <label for="subject">Subject</label>
                         <input type="text" id="subject" name="subject" required>
                     </div>
-                    
+
                     <div class="form-group">
                         <label for="message">Your Message</label>
                         <textarea id="message" name="message" required></textarea>
                     </div>
-                    
+
                     <button type="submit" class="btn btn-primary">
                         Send Message
                         <span>→</span>
                     </button>
-                    
+
                     <div class="form-message" id="formMessage"></div>
                 </form>
 
@@ -1455,29 +1509,33 @@
             <div class="footer-brand">
                 <h3>Thurunu Hashitha</h3>
                 <p>
-                    Software Engineering undergraduate passionate about creating innovative solutions 
+                    Software Engineering undergraduate passionate about creating innovative solutions
                     through Full-Stack Development, Mobile Apps, and IoT systems.
                 </p>
                 <div class="footer-social">
                     <a href="https://github.com/Thurunuhashitha" target="_blank" class="social-icon" title="GitHub">
                         <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-                            <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+                            <path
+                                d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z" />
                         </svg>
                     </a>
-                    <a href="https://www.linkedin.com/in/thurunu-hashitha-242b58265/" target="_blank" class="social-icon" title="LinkedIn">
+                    <a href="https://www.linkedin.com/in/thurunu-hashitha-242b58265/" target="_blank"
+                        class="social-icon" title="LinkedIn">
                         <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-                            <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                            <path
+                                d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
                         </svg>
                     </a>
                     <a href="mailto:hasithathurunu2@gmail.com" class="social-icon" title="Email">
-                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
-                            <polyline points="22,6 12,13 2,6"/>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                            <polyline points="22,6 12,13 2,6" />
                         </svg>
                     </a>
                 </div>
             </div>
-            
+
             <div class="footer-links">
                 <h4>Quick Links</h4>
                 <ul>
@@ -1488,26 +1546,28 @@
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
-            
+
             <div class="footer-links">
                 <h4>Projects</h4>
                 <ul>
                     <li><a href="https://github.com/Thurunuhashitha" target="_blank">GitHub</a></li>
-                    <li><a href="https://github.com/Thurunuhashitha?tab=repositories" target="_blank">All Repositories</a></li>
+                    <li><a href="https://github.com/Thurunuhashitha?tab=repositories" target="_blank">All
+                            Repositories</a></li>
                     <li><a href="https://github.com/Thurunuhashitha?tab=stars" target="_blank">Starred Projects</a></li>
                 </ul>
             </div>
-            
+
             <div class="footer-links">
                 <h4>Connect</h4>
                 <ul>
-                    <li><a href="https://www.linkedin.com/in/thurunu-hashitha-242b58265/" target="_blank">LinkedIn</a></li>
+                    <li><a href="https://www.linkedin.com/in/thurunu-hashitha-242b58265/" target="_blank">LinkedIn</a>
+                    </li>
                     <li><a href="mailto:hasithathurunu2@gmail.com">Email</a></li>
                     <li><a href="tel:+94705656164">Phone</a></li>
                 </ul>
             </div>
         </div>
-        
+
         <div class="footer-bottom">
             <p>&copy; 2026 Thurunu Hashitha. All rights reserved. | Built with passion and code</p>
         </div>
@@ -1518,4 +1578,5 @@
 
     <script src="script.js"></script>
 </body>
+
 </html>
